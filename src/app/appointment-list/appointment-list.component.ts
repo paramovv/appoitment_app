@@ -6,6 +6,7 @@ import { OnInit } from '@angular/core';
   templateUrl: './appointment-list.component.html',
   styleUrls: ['./appointment-list.component.css']
 })
+
 export class AppointmentListComponent implements OnInit{
  
   newAppointmentTitle : string = "";
